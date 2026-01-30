@@ -1,7 +1,6 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/edumentor",
+  "buildCommand": "ng build --configuration production",
+  "outputDirectory": "dist/edumentor/browser",
   "rewrites": [
     {
       "source": "/(.*)",
