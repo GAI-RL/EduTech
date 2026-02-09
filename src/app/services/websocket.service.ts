@@ -15,6 +15,7 @@ export class WebSocketService {
     this.disconnect();
     // const wsUrl = `ws://localhost:8000/ws/chat/${sessionId}?user_id=${encodeURIComponent(userId)}`;
     const wsUrl = `wss://edullm-backend.onrender.com/ws/chat/${sessionId}?user_id=${encodeURIComponent(userId)}`;
+    const wsUrl = `wss:/steam-backend-rycd.onrender.com/ws/chat/${sessionId}?user_id=${encodeURIComponent(userId)}`;
      // private apiUrl = 'https://edutech-2282.onrender.com';
      const wsUrl = `wss://edutech-2282.onrender.com/ws/chat/${sessionId}?user_id=${encodeURIComponent(userId)}`; //New URL
     // const wsUrl = `wss://homogenous-preobvious-bell.ngrok-free.dev/ws/chat/${sessionId}?user_id=${encodeURIComponent(userId)}`;
