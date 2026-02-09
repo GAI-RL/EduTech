@@ -29,7 +29,7 @@ export class ChatService {
   // private apiUrl = 'http://localhost:8000';
 //  private apiUrl = 'https://edullm-backend.onrender.com';
   // private apiUrl = 'https://edutech-2282.onrender.com; 
-  private apiUrl = 'https://steam-backend-rycd.onrender.com; //New BE
+  private apiUrl = 'https://steam-backend-rycd.onrender.com'; //New BE
   // private apiUrl = 'https://homogenous-preobvious-bell.ngrok-free.dev/api';
 
   constructor(private http: HttpClient) { }
