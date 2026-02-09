@@ -1,5 +1,5 @@
 export const environment = {
     production: false,
-    apiBaseUrl: 'https://edullm-backend.onrender.com',
-    wsBaseUrl: 'wss://edullm-backend.onrender.com'
+    apiBaseUrl: 'https://steam-backend-rycd.onrender.com',
+    wsBaseUrl: 'wss://steam-backend-rycd.onrender.com'
 };
